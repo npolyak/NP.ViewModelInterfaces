@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>NP.ViewModelInterfaces</id>
+    <version>1.0.1</version>
+    <title>NP.ViewModelInterfaces</title>
+    <authors>Nick Polyak, Ph. D.</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <projectUrl>https://github.com/npolyak/NP.ViewModelInterfaces</projectUrl>
+    <description>Non-visual interfaces for Visual services/objects to be used in non-visual (VM) projects</description>
+    <summary>Non-visual interfaces for Visual services/objects to be used in non-visual (VM) projects</summary>
+    <releaseNotes>created interfaces for Theming/Localization objects</releaseNotes>
+    <copyright>Nick Polyak 2021</copyright>
+    <tags>Localization, Theming, View Models</tags>
+  </metadata>
+</package>
