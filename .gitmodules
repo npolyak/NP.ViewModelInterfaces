@@ -1,0 +1,6 @@
+[submodule "NP.DependencyInjection"]
+	path = NP.DependencyInjection
+	url = https://github.com/npolyak/NP.DependencyInjection
+[submodule "NP.IoC.CommonImplementations"]
+	path = NP.IoC.CommonImplementations
+	url = https://github.com/npolyak/NP.IoC.CommonImplementations
