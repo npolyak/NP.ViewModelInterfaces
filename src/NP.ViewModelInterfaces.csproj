@@ -1,20 +1,20 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>net6.0</TargetFramework>
 		<PackageId>NP.ViewModelInterfaces</PackageId>
 		<Authors>Nick Polyak, Ph. D.</Authors>
 		<Company>AWebPros</Company>
-		<Version>1.0.4</Version>
+		<Version>1.0.5</Version>
 		<Description>Non-visual interfaces for Visual services/objects to be used in non-visual (VM) projects</Description>
 		<Copyright>Nick Polyak 2023</Copyright>
-		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageTags>Localization, Theming, View Models</PackageTags>
 		<ImplicitUsings>enable</ImplicitUsings>
-		<Nullable>enable</Nullable>
 	</PropertyGroup>
-
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<Optimize>True</Optimize>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	</PropertyGroup>
 	<ItemGroup>
 		<None Remove="*.nuspec" />
 		<None Remove="*.nupkg" />
