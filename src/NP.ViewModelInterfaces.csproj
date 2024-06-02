@@ -4,7 +4,7 @@
 		<PackageId>NP.ViewModelInterfaces</PackageId>
 		<Authors>Nick Polyak, Ph. D.</Authors>
 		<Company>AWebPros</Company>
-		<Version>1.0.5</Version>
+		<Version>1.0.6</Version>
 		<Description>Non-visual interfaces for Visual services/objects to be used in non-visual (VM) projects</Description>
 		<Copyright>Nick Polyak 2023</Copyright>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
